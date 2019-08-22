@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Ubuntu:400,500&display=swap');
+
+/* general style rules*/
+body {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: ubuntu;
+  color: #0B3948;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+header {
+  color: #0B3948;
+  font-family: ubuntu
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+h2 {
+  margin: 8px;
+}
+
+p {
+  font-family: crimson-text;
+}
+
+a {
+  color: #0B3948;
+  text-decoration: none;
+  font-size:24px;
+}
+
+a:hover {
+  color: #416165;
+}
+
+/* class style rules*/
+.card {
+  background-color: rgba(208,205,215,.9);
+  border: 1px solid #ACB0BD;
+  border-radius: 8px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  margin: 24px;
+  padding: 16px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 32px;
+  font-size: 24px;
+}
+
+.fab {
+  font-size: 56px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.button {
+  border: 2px solid #ACB0BD;
+  border-radius: 5px;
+  background-color: #D0CDD7;
+  padding: 4px 16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+.button:hover {
+  background-color: #D9DBF1;
+  border: 1px solid #0B3948;;
+}
+
+/* ID style rules*/
+#footer {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#header {
+  padding-bottom: 24px;
+}
+
+
+/* page responsiveness rules*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
