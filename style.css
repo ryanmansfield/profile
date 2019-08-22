@@ -2,7 +2,7 @@
 
 /* general style rules*/
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
   font-family: ubuntu;
